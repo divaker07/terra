@@ -8,3 +8,8 @@ trigger:
 
 pool:
   agent: seld-agent-pool
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
